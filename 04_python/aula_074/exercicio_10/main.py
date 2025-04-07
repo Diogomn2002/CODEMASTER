@@ -11,16 +11,6 @@ def adeus():
   print("Adeus Codemaster")
   print("*"*20)
 
-def calcularTemperatura():
-  pass
-
-# Camel-Case
-def fazerConclusaoDaCompra():
-  pass
-
-def fazer_conclusar_da_compra():
-  pass
-
 # Executar
 saudar()
 saudar()

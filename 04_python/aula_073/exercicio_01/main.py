@@ -1,16 +1,17 @@
 print("\n\n")
 
+print("=== Início ===\n")
 
-print("=== INICIO ===\n")
+resposta = input("- Está a chover? ")
 
-carta = int(input ("Digite sua idade:"))
+print()
 
-if(carta >= 18):
-  print("pode tirar a carta")
-else:
-  print("nao pode tirar a carta")
+if(resposta == "sim"):
+  print("pegar chapéu de chuva")
 
-print("\n=== FIM ===")
+print("ir passear")
+
+print("\n=== Fim ===")
 
 
 print("\n\n")

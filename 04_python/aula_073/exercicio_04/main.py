@@ -6,7 +6,7 @@ resposta = input("- A lâmpada está queimada? ")
 
 print()
 
-if(resposta == "verdadeiro"):
+if(resposta.lower() == "sim" or resposta.lower() == "verdadeiro"):
   print("retire a lâmpada queimada")
   print("pôr lâmpada nova")
 
