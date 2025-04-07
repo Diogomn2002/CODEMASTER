@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumar+One&family=Rubik+Microbe&family=Rubik+Vinyl&display=swap');
+
+body{
+  font-family: "Inter";
+  text-align: center;
+}
+
+div{
+  border: 2px solid black;
+  font-size: 32px;
+  margin: 50px auto;
+  padding: 20px;
+  width: 40%;
+}
+
+.div-1{
+  background-color: lightgreen;
+}
+
+.div-2{
+  background-color: lightblue;
+}
+
+.div-3{
+  background-color: lightcoral;
+}
+
+#div-100{
+  font-weight: 100;
+}
+
+#div-200{
+  font-weight: 200;
+}
+
+#div-300{
+  font-weight: 300;
+}
+
+#div-400{
+  font-weight: 400;
+}
+
+#div-500{
+  font-weight: 500;
+}
+
+#div-600{
+  font-weight: 600;
+}
+
+#div-700{
+  font-weight: 700;
+}
+
+#div-800{
+  font-weight: 800;
+}
+
+#div-900{
+  font-weight: 900;
+}
+
+#div-normal{
+  font-style: normal;
+}
+
+#div-italic{
+  font-style: italic;
+}
+
+#div-oblique{
+  font-style: oblique 14deg;
+}
+
+#div-none{
+  text-transform: none;
+}
+
+#div-lowercase{
+  text-transform: lowercase;
+}
+
+#div-uppercase{
+  text-transform: uppercase;
+}
+
+#div-capitalize{
+  text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.row{
+  min-height: 400px;
+}
+
+.col-3{
+  width: 250px !important;
+}

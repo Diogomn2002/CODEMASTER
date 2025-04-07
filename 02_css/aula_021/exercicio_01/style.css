@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.aqua {
+  background-color: aqua;
+  color: black;
+}
+
+.vermelho_escuro {
+  background-color: rgb(151, 4, 4);
+  color: white;
+  padding: 50px;
+}
+
+.amarelo {
+  background-color: yellow;
+  color: black;
+  padding: 50px 200px;
+}
+
+.azul_escuro {
+  background-color: blue;
+  color: white;
+  padding-top: 100px;
+}
+
+.verde {
+  background-color: green;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.rosa {
+  background-color: pink;
+  color: black;
+  padding-left: 100px;
+}
+
+.roxo {
+  background-color: purple;
+  color: white;
+  padding-right: 100px;
+}
+
+.vermelho_claro {
+  background-color: red;
+  color: black;
+  padding: 0px 100px 20px 40px;
+}
+
+.azul_claro {
+  background-color: rgb(23, 148, 206);
+  color: black;
+  padding: 10px 50px 100px;
+}

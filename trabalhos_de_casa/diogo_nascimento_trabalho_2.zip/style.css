@@ -1,0 +1,113 @@
+body{
+  background-image:url('imagens/lisboa.jpg') ;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  font-family:'Arial, sans-serif';
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, .cabeçalho{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cabeçalho{
+  color: white;
+}
+
+.cabeçalho a{
+  color: yellow;
+  margin: 10px;
+}
+
+.texto{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.principal{
+  background-color: white;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px 0px;
+  margin: 20px;
+}
+
+.todas-as-imagens{
+  text-align: center;
+  padding: 30px;
+}
+
+#torre-de-belem{
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#arco{
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#ascensor{
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela th{
+  border: 2px dashed black;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.tabela td{
+  border: 2px dashed black;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.tabela{
+  background: rgba(255, 255, 75, 0.7);
+  padding: 25px;
+  margin: 10px auto;
+  padding-left: 340px;
+  padding-right: 340px;
+  border-radius: 30px 0px;
+}
+
+.animação{
+  color: red;
+}
+
+.rodape{
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 45px 0px;
+  text-align: center;
+  margin: 10px;
+}
+
+.rodape a{
+  color: white;
+}

@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(78, 237, 242);
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  background-color: rgb(132, 86, 44);
+  margin-top: -25px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+.nuvem{
+  margin-right: 400px;
+}
+
+.arvore{
+  margin: 10px;
+}

@@ -1,0 +1,104 @@
+body{
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
+div{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.primeiro{
+  background-color: lightgreen;
+}
+
+#primeira{
+  text-decoration: none;
+}
+
+.segundo{
+  background-color: lightgreen;
+}
+
+#segunda{
+  text-decoration: underline solid red 3px;
+}
+
+.terceiro{
+  background-color: lightgreen;
+}
+
+#terceira{
+  text-decoration: underline dotted red 3px;
+}
+
+.quarto{
+  background-color: lightgreen;
+}
+
+#quarta{
+  text-decoration: underline wavy red 3px;
+}
+
+.quinto{
+  background-color: lightgreen;
+}
+
+#quinta{
+  text-decoration: underline double red 3px;
+}
+
+.sexto{
+  background-color: lightgreen;
+}
+
+#sexta{
+  text-decoration: underline dashed red 3px;
+}
+
+.setimo{
+  background-color: lightgreen;
+}
+
+#setima{
+  text-decoration: overline solid red 3px;
+}
+
+.oitavo{
+  background-color: lightgreen;
+}
+
+#oitava{
+  text-decoration: line-through solid red 3px;
+}
+
+.nono{
+  background-color: lightgreen;
+}
+
+#nona{
+  text-decoration: underline overline line-through solid red 3px;
+}
+
+.decimo{
+  background-color: yellow;
+}
+
+#decima{
+  text-decoration-color: blue;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+}
+

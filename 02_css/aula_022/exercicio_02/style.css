@@ -1,0 +1,15 @@
+.primeira_box {
+  background-color: cyan;
+  padding: 50px;
+}
+
+.segunda_box {
+  background-color: greenyellow;
+  margin: 75px;
+}
+
+.terceira_box {
+  background-color: rgb(180, 82, 180);
+  padding: 30px 20px 0px 60px;
+  margin-right: 250px;
+}

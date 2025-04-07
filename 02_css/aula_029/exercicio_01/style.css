@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+  width: 50vw;
+  height: 50vw;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.vermelho{
+  min-width: 200px;
+  background-color: red;
+}
+
+.verde{
+  max-width: 400px;
+  background-color: green;
+}
+
+.azul{
+  min-width: 200px;
+  max-width: 400px;
+  background-color: blue;
+}
+
+.rosa{
+  min-height: 200px;
+  background-color: pink;
+}
+
+.verde-claro{
+  max-height: 400px;
+  background-color: greenyellow;
+}
+
+.azul-claro{
+  min-height: 200px;
+  max-height: 400px;
+  background-color: rgb(63, 116, 180);
+}

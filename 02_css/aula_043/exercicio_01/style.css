@@ -1,0 +1,78 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  text-align: center;
+}
+
+.pai{
+  background-color: lightgreen;
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  display: flex;
+  display: grid;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+.mae{
+  background-color: lightgreen;
+  border: 3px solid black;
+  width: 800px;
+  height: 400px;
+  margin: 50px auto;
+  display: flex;
+  display: grid;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+.filho{
+  background-color: lightcoral;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+.especial-1{
+  background-color: red;
+}
+
+.especial-2{
+  background-color: yellow;
+}
+
+#pai-1{
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, auto );
+}
+
+#pai-1 .especial-1{
+  order: 1;
+}
+
+#pai-1 .especial-2{
+  order: -1;
+}
+
+#pai-2{
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#pai-2 .especial-1{
+  flex-grow: 2;
+}
+
+#pai-2 .especial-2{
+  flex-grow: 2;
+}

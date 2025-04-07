@@ -1,0 +1,124 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+div{
+  border: 2px solid black;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px auto;
+  width: 400px;
+}
+
+p{
+  text-align: justify;
+}
+
+#div-1:hover{
+  background-color: plum;
+  font-size: 20px;
+}
+
+#div-2{
+  transition-duration: 1s;
+}
+
+#div-2:hover{
+  background-color: cadetblue;
+  font-size: 30px;
+}
+
+#div-3:active{
+  background-color: blue;
+  font-size: 20px;
+}
+
+#div-4{
+  transition-duration: 1s;
+}
+
+#div-4:active{
+  background-color:brown ;
+  font-size: 30px;
+}
+
+#div-5, #div-6{
+  text-align: center;
+}
+
+#div-5:focus{
+  background-color: black;
+}
+
+#div-6:focus{
+  transition-duration: 3s;
+}
+
+#div-7{
+  text-align: center;
+}
+
+a:link{
+  color: red;
+}
+
+a:visited{
+  color: white;
+}
+
+#div-8 button:first-of-type{
+  background-color: red;
+}
+
+#div-9 button:last-child{
+  background-color: red;
+}
+
+#div-10 button:nth-child(3){
+  background-color: red;
+}
+
+#div-11 button:nth-child(odd){
+  background-color: red;
+}
+
+#div-12 button:nth-child(even){
+  background-color: red;
+}
+
+#div-13 button:nth-child(3n){
+  background-color: red;
+}
+
+#div-14:lang(pt){
+  background-color: blue;
+}
+
+#div-15:lang(en){
+  background-color: brown;
+}
+
+#div-16 input:autofill{
+  border: 3px solid red;
+}
+
+#div-17 input:disabled{
+  border: 3px solid red;
+}
+
+#div-18 input:enabled{
+  border: 3px solid red;
+}
+
+#div-19 input:read-only{
+  border: 3px solid red;
+}
+
+#div-20 input:placeholder-shown{
+  border: 3px solid red;
+}
+
+#div-21 input:checked{
+  border: 3px solid red;
+}

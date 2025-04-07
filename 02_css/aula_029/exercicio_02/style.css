@@ -1,0 +1,60 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+div{
+  border: 2px solid black;
+  margin: 20px auto;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  text-align: justify;
+}
+
+.vermelho{  
+  background-color: red;
+}
+
+.verde{
+  margin-top: 50px;
+  overflow: auto;
+  background-color: green;
+}
+
+.azul{
+  overflow: scroll;
+  background-color: blue;
+}
+
+.rosa{
+  background-color: pink;
+}
+
+.verde-claro{
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: lightgreen;
+  margin-top: 300px;
+}
+
+.azul-claro{
+  overflow-y: hidden;
+  overflow-x: auto;
+  background-color: rgb(63, 116, 180);
+}
+
+.laranja{
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: orange;
+}
+
+.roxo{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: purple;
+}

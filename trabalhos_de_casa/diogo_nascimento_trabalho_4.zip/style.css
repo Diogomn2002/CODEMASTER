@@ -1,0 +1,161 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Courier';
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*==== HEADER ====*/
+header{
+  background-color: green;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+header nav{
+  border: 2px solid white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 50%;
+  margin: auto;
+}
+header nav a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+header nav a:hover{
+  color: rgb(255, 255, 0);
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/*==== MAIN ====*/
+main{
+  margin-top: 50px;
+}
+
+img{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#filmes{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 50px;
+}
+
+.card{
+  border: 3px solid rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+.card:hover{
+  border: 3px solid rgb(255, 255, 0);
+  background-color: rgba(255, 255, 0, 0.75);
+  transition: 0.75s;
+  cursor: pointer;
+}
+.segunda_pagina{
+  color: white;
+  text-decoration: none;
+}
+
+.texto{
+  padding: 20px;
+}
+
+
+/*==== FOOTER ====*/
+footer{
+  margin-top: 50px;
+}
+.rodape{
+  text-align: center;
+  background-color: green;
+  padding: 20px;
+}
+
+
+/*=== segunda página ===*/
+h1{
+  text-align: center;
+}
+
+.filme_segunda_pagina{
+  border: 3px solid green;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.lorem{
+  text-align: center;
+  margin: 50px 250px;
+}
+
+.botao-filme{
+  background-color: rgba(0, 255, 0, 0.25);
+  color: white;
+  border: 3px solid rgb(0, 255, 0);
+  border-radius: 20px;
+  width: 100px;
+  padding: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.botao-filme:hover{
+  background-color: rgba(255, 255, 0, 0.75);
+  color: white;
+  border: 3px solid rgb(255, 255, 0);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+/*=== Media Query ===*/
+@media screen and (max-width: 800px) {
+  header nav {
+    width: 90%;
+  }
+
+  .card {
+    border: 3px solid rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.25);
+    width: 300px;
+    border-radius: 0px;
+  }
+  
+  .card:hover {
+    border: 3px solid rgb(255, 255, 0);
+    background-color: rgba(255, 255, 0, 0.75);
+    width: 300px;
+    border-radius: 0px;
+  }
+
+  .lorem {
+    margin: 50px 100px;
+  }
+}

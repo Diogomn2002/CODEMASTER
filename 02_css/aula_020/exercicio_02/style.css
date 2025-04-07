@@ -1,0 +1,17 @@
+.div_da_esquerda {
+  background-color: aquamarine;
+  color: black;
+  text-align: left;
+}
+
+.div_do_centro {
+  background-color: rebeccapurple;
+  color: violet;
+  text-align: center;
+}
+
+.div_da_direita {
+  background-color: coral;
+  color: black;
+  text-align: right;
+}

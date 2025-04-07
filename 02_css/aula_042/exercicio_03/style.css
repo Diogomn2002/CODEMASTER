@@ -1,0 +1,109 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.pai{
+  background-color: lightgreen;
+  border: 3px solid black;
+  width: 400px;
+  height: 250px;
+  margin: 50px auto;
+  display: flex;
+  font-size: 21px;
+}
+
+.filho{
+  background-color: lightcoral;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+#pai-1{
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#pai-2{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#pai-3{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+#pai-4{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#pai-5{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#pai-6{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+#pai-7{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#pai-8{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+#pai-9{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#pai-10{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+#pai-11{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#pai-12{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#pai-13{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+#pai-14{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}

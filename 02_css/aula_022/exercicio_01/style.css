@@ -1,0 +1,38 @@
+h1, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.primeira_box {
+  background-color: rgb(252, 140, 28);
+  color: black;
+  margin-right: 400px;
+}
+
+.segunda_box {
+  background-color: blue;
+  color: white;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.terceira_box {
+  background-color: red;
+  color: black;
+}
+
+.quarta_box {
+  background-color: green;
+  color: white;
+  margin-top: -60px;
+  margin-left: 40px;
+  margin-right: 300px;
+}

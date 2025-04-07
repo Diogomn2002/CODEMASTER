@@ -1,0 +1,79 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.pai{
+  background-color: lightgreen;
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  display: flex;
+  font-size: 18px;
+}
+
+.filho{
+  background-color: lightcoral;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+#pai-1{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#pai-2{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#pai-3{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#pai-4{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#pai-5{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#pai-6{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#pai-7{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#pai-8{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#pai-9{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}

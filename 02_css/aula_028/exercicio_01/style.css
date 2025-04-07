@@ -1,0 +1,76 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+#default{
+  cursor: default; 
+}
+
+#pointer{
+  cursor: pointer; 
+}
+
+#wait{
+  cursor: wait;
+}
+
+#grab{
+  cursor: grab;
+}
+
+#grabbing{
+  cursor: grabbing;
+}
+
+#crosshair{
+  cursor: crosshair;
+}
+
+#zoom-in{
+  cursor: zoom-in;
+}
+
+#zoom-out{
+  cursor: zoom-out;
+}
+
+#all-scroll{
+  cursor: all-scroll;
+}
+
+#cell{
+  cursor: cell;
+}
+
+#copy{
+  cursor: copy;
+}
+
+#help{
+  cursor: help;
+}
+
+#progress{
+  cursor: progress;
+}
+
+.border{
+  border: 2px dashed black;
+  color: white;
+}
+
+#vermelho{
+  background-color: red;
+}
+
+#verde{
+  background-color: green;
+}
+
+#azul{
+  background-color: blue;
+}
+
+
+

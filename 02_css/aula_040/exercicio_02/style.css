@@ -1,0 +1,129 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.pai{
+  border: 5px solid salmon;
+  background-color: salmon;
+  padding: 20px;
+  text-align: justify;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  display: grid;
+}
+
+#pai-1{
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#pai-1 #filho-1{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#pai-1 #filho-2{
+  background-color: aqua;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#pai-1 #filho-3{
+  background-color: plum;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#pai-2{
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+#pai-2 #filho-4{
+  background-color: aqua;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 1;
+}
+
+#pai-2 #filho-5{
+  background-color: orange;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+#pai-2 #filho-6{
+  background-color: purple;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+#pai-2 #filho-7{
+  background-color: red;
+  grid-column-start: 5;
+  grid-column-end: 0;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+
+#pai-3{
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#pai-3 #filho-8{
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+#pai-4{
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+}
+
+#pai-4 #filho-9{
+  background-color: red;
+  grid-column-start: 11;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+#pai-4 #filho-10{
+  background-color: blue;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+#pai-4 #filho-11{
+  background-color: greenyellow;
+  grid-column-start: 5;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}

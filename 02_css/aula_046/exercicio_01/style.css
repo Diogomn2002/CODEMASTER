@@ -1,0 +1,161 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'CAMBRIA';
+}
+
+h1, h2, h3, h5{
+  text-align: center;
+}
+
+h5{
+  background-color: black;
+  color: white;
+  margin: 0px auto;
+  padding: 10px;
+  font-size: 0.75rem;
+  font-family: 'Lucida Sans';
+}
+
+h1{
+  background-color: rgb(200, 200, 200);
+  color: white;
+  margin: 0px auto;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.cabecalho{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecalho a{
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.cabecalho a:hover{
+  background-color: white;
+  color: black;
+  padding: 40px;
+}
+
+#brindes:hover::after{
+  content: "BREVEMENTE";
+  display: block;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.principal{
+  background-color: rgb(200, 200, 200);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.vermelho{
+  background-color: rgb(120, 0, 0);
+  padding: 20px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.surpresas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.surpresa{
+  border: 2px solid white;
+  width: 225px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#surpresa-1:hover{
+  background-image: url('imagens/joia-1.webp');
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+#surpresa-2:hover{
+  background-image: url('imagens/joia-2.jpg');
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+#surpresa-3:hover{
+  background-image: url('imagens/joia-3.jpg');
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+#surpresa-4:hover{
+  background-image: url('imagens/joia-4.webp');
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+#surpresa-5:hover{
+  background-image: url('imagens/joia-5.avif');
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+.botao{
+  background-color: white;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  font-size: 22px;
+  font-family: 'Courier New';
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.surpresas:hover + .botao{
+  content: "25% OFF";
+  color: black;
+}
+
+.rodape{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 0.75rem;
+  font-family: 'Lucida Sans';
+}
+

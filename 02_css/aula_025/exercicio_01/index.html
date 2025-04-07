@@ -1,0 +1,187 @@
+<body>
+
+  <h1>Lorem ipsum dolor sit.</h1>
+
+  <form action="">
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+
+    <br><br>
+
+    <input type="text" placeholder="Morada">
+
+    <br><br>
+
+    <input type="text" placeholder="Comida" value="Queijo">
+
+    <br><br>
+
+    <input type="text" placeholder="Comida" disabled="">
+
+    <br><br>
+
+    <input type="text" placeholder="Comida" readonly="">
+
+    <br><br>
+
+    <input type="text" placeholder="Nickname" minlength="5" maxlength="10">
+
+    <br><br>
+
+    <input type="text" placeholder="Comida" required="">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <input type="number" placeholder="Idade">
+
+    <br><br>
+
+    <input type="number" placeholder="Idade" min="0" max="5">
+
+    <br><br>
+
+    <input type="number" placeholder="Altura" step="0.01">
+
+    <br><br>
+
+    <input type="number" placeholder="Peso" step="any">
+
+    <br><br>
+
+    <input type="number" placeholder="Dias" step="3">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <input type="password" placeholder="Senha">
+
+    <br><br>
+
+    <input type="email" placeholder="E-mail">
+
+    <br><br>
+
+    <input type="url" placeholder="Link do Canal">
+
+    <br><br>
+
+    <input type="tel" placeholder="Telefone" pattern="[+]{1} [0-9]{3}">
+    <input type="tel" placeholder="Telefone" pattern="[0-2]{3}-[0-9]{3}-[0-9]{3}">
+
+    <br><br>
+
+    <input type="file">
+
+    <br><br>
+
+    <input type="range" min="0" max="5" value="5" step="any" id="range" oninput="teste()">
+    <span id="saida">5</span>
+    <script>
+      function teste(){saida.innerHTML = range.value;}
+      teste()
+    </script>
+
+    <br><br>
+    <hr>
+    <br>
+
+    <h3>Item Extra</h3>
+
+    <label for="bacon">Bacon</label>
+    <input type="checkbox" id="bacon" disabled="">
+    <br>
+    <label for="fiambre">Fiambre</label>
+    <input type="checkbox" id="fiambre">
+    <input type="number" min="0" max="2" placeholder="qtd" style="width: 40px;">
+    <br>
+    <label for="queijo">Queijo</label>
+    <input type="checkbox" id="queijo" checked="">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <h3>Pergunta da Escola</h3>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, aliquid fugiat maxime iste suscipit, repudiandae nemo ab nisi, ipsa mollitia est nulla! Impedit sed odio, quidem quisquam ab magnam expedita?
+    </p>
+
+    <label for="a">a)</label>
+    <input type="radio" id="a" name="reposta-1">
+    <br>
+    <label for="b">b)</label>
+    <input type="radio" id="b" name="reposta-1">
+    <br>
+    <label for="a">c)</label>
+    <input type="radio" id="c" name="reposta-1">
+    <br>
+    <label for="a">d)</label>
+    <input type="radio" id="d" name="reposta-1">
+    <br>
+    <label for="a">e)</label>
+    <input type="radio" id="e" name="reposta-1">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <label for="cor-1">Cor 1:</label>
+    <input type="color" id="cor-1">
+
+    <br><br>
+
+    <label for="cor-2">Cor 2:</label>
+    <input type="color" id="cor-2" value="#ffff00">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <label for="data-1">Data 1:</label>
+    <input type="date" id="data-1">
+
+    <br><br>
+
+    <label for="data-2">Data 2:</label>
+    <input type="date" id="data-2" value="2025-01-10">
+
+    <br><br>
+
+    <label for="data-3">Data 3:</label>
+    <input type="date" id="data-3" min="2025-02-01" max="2025-02-28">
+
+    <br><br>
+
+    <label for="data-4">Data 4:</label>
+    <input type="date" id="data-4" step="4">
+
+    <br><br>
+
+    <label for="data-5">Data 5:</label>
+    <input type="date" id="data-5" value="2025-01-06" step="7">
+
+    <br><br>
+    <hr>
+    <br>
+
+    <label for="mes-1">Mês 1:</label>
+    <input type="month" id="mes-1">
+
+    <br><br>
+    <hr>
+    <br><br><br>
+    <hr>
+    <br>
+
+    <br><br>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+
+</body>

@@ -1,0 +1,66 @@
+h1{
+  text-align: center;
+}
+
+.percentagem{
+  background-color: red;
+  color: black;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.vw{
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  width: 50vw;
+}
+
+.vh{
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  width: 50vh;
+}
+
+.vmin{
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  width: 50vmin;
+}
+
+.vmax{
+  background-color: orange;
+  color: black;
+  border: 1px solid black;
+  width: 50vmax;
+}
+
+.em{
+  background-color: pink;
+  color: black;
+  border: 1px solid black;
+  width: 50em;
+}
+
+.rem{
+  background-color: purple;
+  color: white;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.ch{
+  background-color: cyan;
+  color: black;
+  border: 1px solid black;
+  width: 50ch;
+}
+
+.ex{
+  background-color: darkred;
+  color: white;
+  border: 1px solid black;
+  width: 50ex;
+}

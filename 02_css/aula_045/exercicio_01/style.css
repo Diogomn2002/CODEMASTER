@@ -1,0 +1,150 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.pai{
+  border-radius: 25px;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#pai-1{
+  animation-name: div-1;
+  animation-duration: 2s;
+}
+
+@keyframes div-1{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-2{
+  animation-name: div-2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes div-2{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-3{
+  animation-name: div-3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes div-3{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-4{
+  animation-name: div-4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes div-4{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-5{
+  animation-name: div-5;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes div-5{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-6{
+  animation-name: div-6;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+@keyframes div-6{
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px);
+    background-color: yellow;
+  }
+}
+
+#pai-7{
+  animation-name: div-7;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+@keyframes div-7{
+  from{
+    transform: translateX(0px) rotate(0deg);
+    background-color: red;
+  }
+  to{
+    transform: translateX(600px) rotate(360deg);
+    background-color: yellow;
+  }
+}

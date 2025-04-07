@@ -1,0 +1,45 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.pai{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 50px;
+  gap: 30px;
+  font-size: 20px;
+}
+
+#filho-1, #filho-2, #filho-3{
+  background-color: orange;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+#pai-1 #filho-1{
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+#pai-1 #filho-2{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+#pai-1 #filho-3{
+  position: sticky;
+  top: 10px;
+  bottom: 10px;
+}

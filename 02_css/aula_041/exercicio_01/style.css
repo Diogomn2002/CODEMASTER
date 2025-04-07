@@ -1,0 +1,78 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.pai{
+  background-color: lightgreen;
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.filho{
+  background-color: lightcoral;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#pai-1{
+  flex-direction: row;
+}
+
+#pai-2{
+  flex-direction: column;
+}
+
+#pai-3{
+  flex-direction: row-reverse;
+}
+
+#pai-4{
+  flex-direction: column-reverse;
+}
+
+#pai-5{
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#pai-6{
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+#pai-7{
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+#pai-8{
+  flex-direction: column;
+  flex-wrap: nowrap; 
+}
+
+#pai-9{
+  flex-direction: column;
+  flex-wrap: wrap; 
+}
+
+#pai-10{
+  flex-direction: column;
+  flex-wrap: wrap-reverse; 
+}
+
+#pai-11{
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}

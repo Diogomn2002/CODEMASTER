@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+}
+
+#neve {
+  background-image: url('imagens/neve.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+#praia {
+  background-image: url('imagens/praia.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 40px;
+}

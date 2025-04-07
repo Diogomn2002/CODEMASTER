@@ -1,0 +1,23 @@
+body{
+  max-width: 1600px;
+}
+
+#nav-topo a{
+  color: white;
+  /* background-color: rgb(164, 28, 10); */
+  /* border: 1px solid black; */
+  text-decoration: none;
+  padding: 20px 25px;
+  display: block;
+  transition-duration: 1s;
+}
+#nav-topo a:hover{background-color: rgb(164, 28, 10);}
+
+.especial{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 25%);
+  border-radius: 26.75px;
+}
+.especial > img{
+  border-top-left-radius: 25.75px;
+  border-top-right-radius: 25.75px;
+}

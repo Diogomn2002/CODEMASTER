@@ -1,0 +1,44 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+div{
+  border: 3px solid black;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: justify;
+  width: 40%;
+  background-color: lightgreen;
+}
+
+#div-1::selection{
+  background-color: red;
+}
+
+#div-2 li::marker{
+  color: red;
+}
+
+#div-3::first-letter{
+  background-color: yellow;
+  color: red;
+  font-size: 32px;
+}
+
+#div-4::first-line{
+  background-color: yellow;
+  color: red;
+  font-size: 16px;
+}
+
+#div-5 label::before{
+  content: url("imagens/bob_mini.jpg");
+}
+
+#div-6 label::after{
+  content: ")";
+}
