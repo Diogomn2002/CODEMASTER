@@ -1,21 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt">
-
+    
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diogo Nascimento|Trabalho 5</title>
+    <title>Diogo Nascimento | Trabalho 5</title>
 
     <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+    <!-- Logotipo sobre o carrossel -->
+    <div class="logo_twde">
+      <img src="imagens/Logotipo_Twde.png" alt="Logotipo TWDE ">
+    </div>
+
+    <!-- Menu sobre o carrossel -->
+    <div class="menu">
+      <img src="imagens/menu.svg" alt="Menu">
+    </div>
+
+    <!-- Carousel -->
+    <div class="row">
+      <div class="col-12 m-auto">
+        <div id="carousel-5" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel-5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel-5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- Texto sobre o carrossel -->
+              <div class="texto_carousel">
+                <h1>LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, </p>
+                <p>ipsum dolor sit amet.</p>
+              </div>
+              <img src="imagens/banner1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <!-- Texto sobre o carrossel -->
+              <div class="texto_carousel">
+                <h1>LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,</p>
+                <p>ipsum dolor sit amet.</p>
+              </div>
+              <img src="imagens/banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <!-- Texto sobre o carrossel -->
+              <div class="texto_carousel">
+                <h1>LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, </p>
+                <p>ipsum dolor sit amet.</p>
+              </div>
+              <img src="imagens/banner3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <!-- Texto sobre o carrossel -->
+              <div class="texto_carousel">
+                <h1>LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,</p>
+                <p>ipsum dolor sit amet.</p>
+              </div>
+              <img src="imagens/banner4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-5" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-5" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
     
+    <!-- Bem-vindo Section -->
+    <section class="container text-center">
+      <h2 class="section-title">BEM-VINDO AO MUNDO DA <span class="text-danger">TWDE</span></h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum placeat itaque, laudantium recusandae tempore sit sed dolor aliquid.</p>
+      <p>Similique error voluptatibus quia repellendus placeat laboriosam.</p>
+      <a href="#" class="btn btn-dark mt-3">Ver Mais</a>
+    </section>
+
+    <!-- Serviços -->
+    <section class="container">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="no-image-placeholder">Energia Solar</div>
+        </div>
+        <div class="col-md-3">
+          <div class="no-image-placeholder">Eletricidade/Gás</div>
+        </div>
+        <div class="col-md-3">
+          <div class="no-image-placeholder">Assistência Técnica</div>
+        </div>
+        <div class="col-md-3">
+          <div class="no-image-placeholder">Plano EDP Saúde</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ajuda -->
+    <section class="bg-light text-center">
+      <div class="container">
+        <h3>PRECISA DE <span class="text-danger">AJUDA?</span></h3>
+        <p>Temos uma equipa ao seu dispor, para tal. Contacte-nos.</p>
+        <p><strong>Tel.:</strong> 222 333 444</p>
+        <a href="#" class="btn btn-dark">Fale Connosco</a>
+      </div>
+    </section>
+
+    <!-- Agente Section -->
+    <section class="container text-center">
+      <h2 class="section-title">TORNE-SE UM AGENTE <span class="text-danger">TWDE</span></h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea tempore architecto nostrum quasi corporis error autem facilis sunt at.</p>
+      <p>Deserunt tempore vitae perspiciatis nihil amet eaque nisi sint exercitationem dicta odit quis magni iure.</p>
+      <a href="#" class="btn btn-danger">Saber Mais</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Quem Somos</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Serviços</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Produtos</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Ajuda</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Agente</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#">Contactos</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <p class="mb-0">Copyright &copy; 2025 Grupo Mediamaster. Todos os direitos reservados. Política de cookies.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
   
 </html>
