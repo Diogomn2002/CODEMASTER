@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumar+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&family=Rubik+Microbe&family=Rubik+Vinyl&display=swap');
+
+
 body {
   font-family: Arial, sans-serif;
+  font-family: "Roboto Condensed";
 }
-
-
-
-
 
 
 /*====== HEADER ======*/
