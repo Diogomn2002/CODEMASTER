@@ -1,0 +1,11 @@
+<?php
+
+// nome = "codemaster"
+
+$nome = "codemaster";
+$idade = 123;
+$saldo = 34.54;
+$esta_a_chover = true;
+$esta_de_noite = false;
+
+?>
