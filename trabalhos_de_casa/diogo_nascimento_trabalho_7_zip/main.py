@@ -3,19 +3,22 @@ from funcoes import cadastrar_produto, listar_produtos, vender_produto, listar_v
 
 def menu():
     while True:
-        print("\n--- Loja Python ---")
-        print("1. Cadastrar produto")
-        print("2. Listar produtos")
-        print("3. Realizar venda")
-        print("4. Listar vendas")
-        print("0. Sair")
-        opcao = input("Escolha uma opção: ")
+        print("\n=== Loja Python ===\n")
+        print("1 - Registrar produto.")
+        print("2 - Editar produto.")
+        print("3 - Apagar produto.")
+        print("4 - Listar produtos.\n")
+        print("5 - Vender.")
+        print("6 - Listar vendas.\n")
+        print("0. Sair\n")
+        opcao = input("Opção: ")
 
         if opcao == "1":
-            nome = input("Nome do produto: ")
-            preco = float(input("Preço: "))
-            estoque = int(input("Quantidade em estoque: "))
-            cadastrar_produto(nome, preco, estoque)
+            print("--- Registar Produto ---\n")
+            nome = input("- Digite o nome do novo produto: ")
+            preco = float(input("- Digite o preço deste produto: "))
+            quantidade = int(input("- Digite a quantidade deste produto: \n"))
+            cadastrar_produto(nome, preco, quantidade)
 
         elif opcao == "2":
             listar_produtos()
